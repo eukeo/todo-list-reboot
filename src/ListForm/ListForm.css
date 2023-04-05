@@ -1,0 +1,67 @@
+.formContainer {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .title {
+    text-align: center;
+    margin: 5%;
+    font-size: 24px;
+  }
+  
+  .inputFields {
+    display: inline-flex;
+    font-size: 20px;
+    width: 64%;
+    margin: 5% auto;
+  }
+  
+  .textInput {
+    border-radius: 10px;
+  }
+  
+  .timeInput {
+    padding-left: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+  
+  .confirmBtn {
+    border-radius: 10px;
+    background-color: rgb(61, 130, 209);
+    color: white;
+    margin-left: 10px;
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .title {
+      font-size: 18px;
+    }
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .formContainer {
+      width: 80%;
+    }
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .inputFields {
+      width: 80%;
+    }
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .title {
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .textInput,
+    .timeInput,
+    .confirmBtn {
+      width: 40%;
+      font-size: 8px;
+    }
+  }

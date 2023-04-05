@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { useState } from "react";
+import ListForm from "./ListForm/ListForm";
+import TodoList from "./TodoList/TodoList";
+import NewDate from "./NewDate/NewDate";
 
 function App() {
+  const [todoList, setTodoList] = useState([]);
+
+  const addTodoHandler = (uText, uTime) => {
+    setTodoList((prevTodoList) => {
+      return [...prevTodoList, { text: uText, time: uTime }];
+    });
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NewDate />
+      <ListForm onAddTodo={addTodoHandler} />
+      <TodoList todos={todoList} />
     </div>
   );
 }
 
 export default App;
+

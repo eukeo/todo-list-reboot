@@ -1,0 +1,16 @@
+.todoList {
+    width: 50%;
+  }
+  
+  .todoItem {
+    padding: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .todoList {
+      width: 80%;
+    }
+  }

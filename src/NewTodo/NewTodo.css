@@ -1,0 +1,80 @@
+.todoText {
+    list-style: none;
+    margin-top: 15px;
+    width: 75%;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .btns {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+  
+  .editBtn {
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(61, 130, 209);
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  .deleteBtn {
+    border-radius: 10px;
+    background-color: rgb(61, 130, 209);
+    color: white;
+    margin-left: 5px;
+    font-size: 14px;
+  }
+  
+  .editTextInput {
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  
+  .editTimeInput {
+    font-size: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+  
+  .saveBtn {
+    position: absolute;
+    right: 210px;
+    top: 20px;
+    border-radius: 10px;
+    background-color: rgb(61, 130, 209);;
+    color: white;
+    margin-left: 5px;
+    font-size: 14px;
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .btns {
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 25%;
+      position: absolute;
+      right: 1px;
+      left: 250px;
+      top: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .editBtn,
+    .deleteBtn {
+      font-size: 8px;
+    }
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .todoText {
+      font-size: 10px;
+      width: 70%;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+  }
+  

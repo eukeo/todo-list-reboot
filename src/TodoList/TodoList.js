@@ -15,6 +15,7 @@ const TodoList = (props) => {
           style={{
             backgroundColor: "#146C94",
             color: 'white',
+            filter: "drop-shadow(0px 3px 2px #000)",
           }}
         >
           <NewTodo text={todo.text} time={todo.time} />

@@ -9,7 +9,7 @@
   .btns {
     position: absolute;
     right: 15px;
-    top: 15px;
+    top: 20px;
   }
   
   .editBtn {
@@ -42,12 +42,20 @@
   .saveBtn {
     position: absolute;
     right: 210px;
-    top: 20px;
+    top: 25px;
     border-radius: 10px;
     background-color: rgb(61, 130, 209);;
     color: white;
     margin-left: 5px;
     font-size: 14px;
+  }
+
+  .editTextInput:hover {
+    background-color: rgb(230, 230, 230);
+  }
+  
+  .editTimeInput:hover {
+    background-color: rgb(230, 230, 230);
   }
   
   @media only screen and (max-width: 980px) {

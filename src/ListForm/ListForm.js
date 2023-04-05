@@ -41,6 +41,7 @@ const ListForm = (props) => {
         backgroundColor: "#F6E1C3",
         display: "block",
         margin: "auto",
+        filter: "drop-shadow(0px 3px 2px #000)",
       }}
     >
       <form type="submit" onSubmit={submitTodo}>

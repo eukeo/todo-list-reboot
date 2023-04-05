@@ -32,6 +32,26 @@
     color: white;
     margin-left: 10px;
   }
+
+  .textInput:hover {
+    background-color: rgb(230, 230, 230);
+  }
+
+  .timeInput:hover {
+    background-color: rgb(230, 230, 230);
+  }
+
+  .editBtn:hover {
+    background-color: rgb(214, 214, 214);
+  }
+
+  .deleteBtn:hover {
+    background-color: rgb(50, 108, 173);
+  }
+
+  .saveBtn:hover {
+    background-color: rgb(50, 108, 173);
+  }
   
   @media only screen and (max-width: 980px) {
     .title {

@@ -45,7 +45,7 @@ const ListForm = (props) => {
       }}
     >
       <form type="submit" onSubmit={submitTodo}>
-        <Card.Title className="title">What Do I Need To Do?</Card.Title>
+        <Card.Title className="title">What To Do?</Card.Title>
         <div className="inputFields">
           <input
             className="textInput"
